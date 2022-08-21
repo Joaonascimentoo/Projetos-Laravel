@@ -61,3 +61,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Instruções
+
+Para rodar o projeto é necessário:
+
+Executar o comando "composer install"
+
+Executar o comando "npm install"
+
+Executar o comando "npm run dev"
+
+Executar o comando "php migrate" para a criação da base de dados
+
+Executar o comando "php artisan serve" para subir o servidor de desenvolvimento
