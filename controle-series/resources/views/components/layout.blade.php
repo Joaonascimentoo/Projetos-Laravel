@@ -15,9 +15,15 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ route('series.index') }}">Séries</a>
 
-            @auth
-            <a href="{{ route('logout') }}">Sair</a>
-            @endauth
+            <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+
+                            <x-dropdown-link :href="route('logout')"
+                                    onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                {{ __('Sair') }}
+                            </x-dropdown-link>
+                        </form>
 
             @guest
             <a href="{{ route('login') }}">Entrar</a>
