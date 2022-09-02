@@ -73,6 +73,13 @@ Executar o comando "npm install"
 
 Executar o comando "npm run dev"
 
+Criar um arquivo database.sqlite na pasta database
+
+Criar um arquivo .env baseado no .env.example alterando a conexão de banco de dados para sqlite e apagar as outras configurações de conexão de banco de dados.
+
+DB_CONNECTION=sqlite
+
 Executar o comando "php migrate" para a criação da base de dados
 
 Executar o comando "php artisan serve" para subir o servidor de desenvolvimento
+
