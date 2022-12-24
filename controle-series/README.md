@@ -81,5 +81,7 @@ DB_CONNECTION=sqlite
 
 Executar o comando "php migrate" para a criação da base de dados
 
+Executar o comando "php artisan key:generate" para gerar a chave da aplicação
+
 Executar o comando "php artisan serve" para subir o servidor de desenvolvimento
 
